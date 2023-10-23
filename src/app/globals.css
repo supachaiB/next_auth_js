@@ -1,0 +1,29 @@
+/* ปรับแต่งสไตล์ของปุ่ม SigninButton */
+.SigninButton {
+  background-color: #0071ff; /* สีพื้นหลัง */
+  color: white; /* สีตัวอักษร */
+  padding: 10px 20px; /* ขนาดของปุ่ม */
+  border: none; /* ไม่มีเส้นขอบ */
+  border-radius: var(--border-radius); /* ขนาดขอบมน */
+  cursor: pointer; /* เปลี่ยนเป็นเคอร์เซอร์เมื่อชี้ */
+  transition: background-color 0.3s ease; /* เพิ่มเอฟเฟกต์การเปลี่ยนสีพื้นหลัง */
+}
+
+.SigninButton:hover {
+  background-color: #0056b3; /* สีพื้นหลังเมื่อโฮเวอร์ */
+}
+
+/* ปรับแต่งสไตล์ของปุ่ม RegButton */
+.RegButton {
+  background-color: #16abff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.RegButton:hover {
+  background-color: #1286d0;
+}
